@@ -32,27 +32,10 @@ This project allows users to manage tasks across three workflow stages:
 
 ---
 
-## 📂 Project Structure
-
-app/
-layout.tsx
-page.tsx
-
-components/
-Board.tsx
-Column.tsx
-TaskCard.tsx
-TaskModal.tsx
-
-public/
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/naishtya/taskflow.git
 
 ### 2️⃣ Go to Project Folder
 cd taskflow
