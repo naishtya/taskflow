@@ -1,3 +1,5 @@
+"use client";
+
 import Board from "@/components/Board";
 
 export default function Home() {
@@ -13,7 +15,3 @@ export default function Home() {
     </main>
   );
 }
-
-<div className="bg-white dark:bg-black text-black dark:text-white">
-  Test Dark Mode
-</div>
