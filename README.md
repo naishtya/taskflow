@@ -1,41 +1,74 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 TaskFlow — Mini Kanban Board
 
-## Getting Started
+TaskFlow is a simple Kanban-style task management web application built using **Next.js**, **TypeScript**, and **Tailwind CSS**, and deployed on **Vercel**.
 
-First, run the development server:
+This project allows users to manage tasks across three workflow stages:
+- 📝 To Do  
+- ⚙️ In Progress  
+- ✅ Done  
 
-```bash
+---
+
+## ✨ Features
+
+- 📋 Create new tasks  
+- ✏️ Edit tasks  
+- 🗑️ Delete tasks  
+- 🔄 Drag and drop tasks between columns  
+- 🎨 Clean UI with Tailwind CSS  
+- ☁️ Live deployment with Vercel  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js (App Router) | Frontend Framework |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| React Hooks | State Management |
+| Vercel | Deployment & Hosting |
+
+---
+
+## 📂 Project Structure
+
+app/
+layout.tsx
+page.tsx
+
+components/
+Board.tsx
+Column.tsx
+TaskCard.tsx
+TaskModal.tsx
+
+public/
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+git clone https://github.com/YOUR_USERNAME/taskflow.git
+
+### 2️⃣ Go to Project Folder
+cd taskflow
+
+### 3️⃣ Install Dependencies
+npm install
+
+### 4️⃣ Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Open browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+## 🌐 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# taskflow
-A simple Kanban-style task management web app built with Next.js and deployed using Vercel.
->>>>>>> 0dab582f61faab26d7cb839f918f6d99ef7ee9b6
+👉 Deployed using Vercel
+https://taskflow-beige-mu.vercel.app/
